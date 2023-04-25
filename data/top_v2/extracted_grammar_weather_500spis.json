@@ -1,0 +1,56 @@
+{
+    "ROOT": [
+        "IN:GET_SUNSET",
+        "IN:GET_SUNRISE",
+        "IN:GET_WEATHER",
+        "IN:UNSUPPORTED_WEATHER"
+    ],
+    "IN:GET_WEATHER": [
+        "SL:DATE_TIME",
+        "SL:MEASUREMENT_UNIT",
+        "SL:WEATHER_TEMPERATURE_UNIT",
+        "SL:WEATHER_ATTRIBUTE",
+        "SL:LOCATION"
+    ],
+    "SL:WEATHER_ATTRIBUTE": [],
+    "SL:DATE_TIME": [],
+    "SL:WEATHER_TEMPERATURE_UNIT": [],
+    "SL:LOCATION": [
+        "IN:GET_LOCATION",
+        "IN:GET_INFO_CONTACT"
+    ],
+    "IN:UNSUPPORTED_WEATHER": [
+        "SL:WEATHER_ATTRIBUTE",
+        "SL:DATE_TIME",
+        "SL:LOCATION"
+    ],
+    "IN:GET_SUNRISE": [
+        "SL:DATE_TIME",
+        "SL:LOCATION"
+    ],
+    "IN:GET_SUNSET": [
+        "SL:DATE_TIME",
+        "SL:LOCATION"
+    ],
+    "IN:GET_LOCATION": [
+        "SL:LOCATION_USER",
+        "SL:SEARCH_RADIUS",
+        "SL:LOCATION_MODIFIER"
+    ],
+    "SL:LOCATION_USER": [],
+    "IN:GET_INFO_CONTACT": [
+        "SL:CONTACT"
+    ],
+    "SL:CONTACT": [
+        "IN:GET_CONTACT"
+    ],
+    "IN:GET_CONTACT": [
+        "SL:TYPE_RELATION",
+        "SL:CONTACT_RELATED"
+    ],
+    "SL:CONTACT_RELATED": [],
+    "SL:TYPE_RELATION": [],
+    "SL:MEASUREMENT_UNIT": [],
+    "SL:LOCATION_MODIFIER": [],
+    "SL:SEARCH_RADIUS": []
+}

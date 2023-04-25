@@ -1,0 +1,202 @@
+{
+    "ROOT": [
+        "IN:GET_REMINDER_AMOUNT",
+        "IN:DELETE_REMINDER",
+        "IN:HELP_REMINDER",
+        "IN:CREATE_REMINDER",
+        "IN:GET_REMINDER_LOCATION",
+        "IN:UPDATE_REMINDER_TODO",
+        "IN:GET_REMINDER_DATE_TIME",
+        "IN:GET_REMINDER",
+        "IN:UPDATE_REMINDER_DATE_TIME",
+        "IN:UPDATE_REMINDER"
+    ],
+    "IN:CREATE_REMINDER": [
+        "SL:DATE_TIME",
+        "SL:AMOUNT",
+        "SL:TODO",
+        "SL:RECURRING_DATE_TIME",
+        "SL:ORDINAL",
+        "SL:PERSON_REMINDED"
+    ],
+    "SL:PERSON_REMINDED": [
+        "IN:GET_CONTACT",
+        "IN:GET_EVENT_ATTENDEE"
+    ],
+    "SL:TODO": [
+        "IN:SEND_MESSAGE",
+        "IN:REPLY_MESSAGE",
+        "IN:GET_TODO"
+    ],
+    "SL:DATE_TIME": [
+        "IN:GET_BIRTHDAY"
+    ],
+    "IN:GET_TODO": [
+        "SL:RECURRING_DATE_TIME",
+        "SL:DATE_TIME",
+        "SL:ATTENDEE",
+        "SL:TODO"
+    ],
+    "IN:DELETE_REMINDER": [
+        "SL:DATE_TIME",
+        "SL:AMOUNT",
+        "SL:TODO",
+        "SL:RECURRING_DATE_TIME",
+        "SL:ORDINAL",
+        "SL:PERSON_REMINDED"
+    ],
+    "SL:AMOUNT": [],
+    "SL:RECURRING_DATE_TIME": [
+        "IN:GET_RECURRING_DATE_TIME"
+    ],
+    "IN:GET_RECURRING_DATE_TIME": [
+        "SL:ORDINAL",
+        "SL:DATE_TIME",
+        "SL:FREQUENCY"
+    ],
+    "SL:FREQUENCY": [],
+    "IN:UPDATE_REMINDER_DATE_TIME": [
+        "SL:DATE_TIME",
+        "SL:AMOUNT",
+        "SL:RECURRING_DATE_TIME_NEW",
+        "SL:TODO",
+        "SL:DATE_TIME_NEW",
+        "SL:RECURRING_DATE_TIME",
+        "SL:ORDINAL",
+        "SL:ATTENDEE",
+        "SL:PERSON_REMINDED"
+    ],
+    "SL:DATE_TIME_NEW": [],
+    "IN:GET_REMINDER": [
+        "SL:DATE_TIME",
+        "SL:AMOUNT",
+        "SL:TODO",
+        "SL:METHOD_RETRIEVAL_REMINDER",
+        "SL:ORDINAL",
+        "SL:RECURRING_DATE_TIME",
+        "SL:PERSON_REMINDED"
+    ],
+    "SL:ATTENDEE": [
+        "IN:GET_CONTACT"
+    ],
+    "SL:METHOD_RETRIEVAL_REMINDER": [],
+    "IN:SEND_MESSAGE": [
+        "SL:CONTACT",
+        "SL:DATE_TIME",
+        "SL:TYPE_CONTENT",
+        "SL:SENDER",
+        "SL:RECIPIENT",
+        "SL:CONTENT_EXACT",
+        "SL:GROUP",
+        "SL:NAME_APP"
+    ],
+    "SL:CONTENT_EXACT": [
+        "IN:GET_EVENT"
+    ],
+    "IN:GET_REMINDER_AMOUNT": [
+        "SL:DATE_TIME",
+        "SL:METHOD_RETRIEVAL_REMINDER",
+        "SL:TODO",
+        "SL:PERSON_REMINDED"
+    ],
+    "IN:GET_REMINDER_DATE_TIME": [
+        "SL:DATE_TIME",
+        "SL:AMOUNT",
+        "SL:TODO",
+        "SL:METHOD_RETRIEVAL_REMINDER",
+        "SL:ORDINAL",
+        "SL:RECURRING_DATE_TIME",
+        "SL:PERSON_REMINDED"
+    ],
+    "IN:GET_CONTACT": [
+        "SL:CONTACT",
+        "SL:AMOUNT",
+        "SL:TYPE_RELATION",
+        "SL:CONTACT_RELATED",
+        "SL:MUTUAL_EMPLOYER",
+        "SL:JOB",
+        "SL:AGE"
+    ],
+    "SL:CONTACT_RELATED": [],
+    "SL:TYPE_RELATION": [],
+    "SL:ORDINAL": [],
+    "SL:RECIPIENT": [
+        "IN:GET_CONTACT"
+    ],
+    "IN:GET_REMINDER_LOCATION": [
+        "SL:DATE_TIME",
+        "SL:AMOUNT",
+        "SL:TODO",
+        "SL:METHOD_RETRIEVAL_REMINDER",
+        "SL:ORDINAL",
+        "SL:PERSON_REMINDED"
+    ],
+    "IN:UPDATE_REMINDER": [
+        "SL:DATE_TIME",
+        "SL:RECURRING_DATE_TIME_NEW",
+        "SL:PERSON_REMINDED_REMOVED",
+        "SL:AMOUNT",
+        "SL:TODO",
+        "SL:ATTENDEE_ADDED",
+        "SL:PERSON_REMINDED_ADDED",
+        "SL:ATTENDEE_REMOVED",
+        "SL:RECURRING_DATE_TIME",
+        "SL:ORDINAL",
+        "SL:ATTENDEE",
+        "SL:PERSON_REMINDED"
+    ],
+    "SL:RECURRING_DATE_TIME_NEW": [
+        "IN:GET_RECURRING_DATE_TIME"
+    ],
+    "IN:HELP_REMINDER": [],
+    "IN:UPDATE_REMINDER_TODO": [
+        "SL:DATE_TIME",
+        "SL:AMOUNT",
+        "SL:RECURRING_DATE_TIME_NEW",
+        "SL:TODO",
+        "SL:RECURRING_DATE_TIME",
+        "SL:TODO_NEW",
+        "SL:ATTENDEE",
+        "SL:PERSON_REMINDED"
+    ],
+    "SL:TODO_NEW": [
+        "IN:SEND_MESSAGE"
+    ],
+    "IN:REPLY_MESSAGE": [
+        "SL:SENDER",
+        "SL:CONTENT_EXACT",
+        "SL:RECIPIENT"
+    ],
+    "IN:GET_EVENT": [
+        "SL:DATE_TIME",
+        "SL:ORGANIZER_EVENT",
+        "SL:CATEGORY_EVENT"
+    ],
+    "SL:ORGANIZER_EVENT": [
+        "IN:GET_CONTACT"
+    ],
+    "SL:CATEGORY_EVENT": [],
+    "SL:PERSON_REMINDED_REMOVED": [
+        "IN:GET_CONTACT"
+    ],
+    "SL:CONTACT": [],
+    "SL:JOB": [],
+    "SL:MUTUAL_EMPLOYER": [],
+    "SL:NAME_APP": [],
+    "SL:PERSON_REMINDED_ADDED": [
+        "IN:GET_CONTACT"
+    ],
+    "SL:ATTENDEE_ADDED": [],
+    "IN:GET_BIRTHDAY": [
+        "SL:CONTACT"
+    ],
+    "IN:GET_EVENT_ATTENDEE": [
+        "SL:DATE_TIME",
+        "SL:ORGANIZER_EVENT"
+    ],
+    "SL:GROUP": [],
+    "SL:SENDER": [],
+    "SL:ATTENDEE_REMOVED": [],
+    "SL:AGE": [],
+    "SL:TYPE_CONTENT": []
+}
