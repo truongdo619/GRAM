@@ -1,1 +1,1 @@
-# GRAM
+# GRAM: Grammar-Based Refined-Label Representing Mechanism in the Hierarchical Semantic Parsing Task

@@ -1,0 +1,306 @@
+{
+    "ROOT": [
+        "IN:UNSUPPORTED",
+        "IN:UNSUPPORTED_NAVIGATION",
+        "IN:GET_LOCATION",
+        "IN:GET_ESTIMATED_DURATION",
+        "IN:GET_INFO_TRAFFIC",
+        "IN:UPDATE_DIRECTIONS",
+        "IN:GET_EVENT",
+        "IN:UNINTELLIGIBLE",
+        "IN:GET_EVENT_ATTENDEE",
+        "IN:GET_ESTIMATED_ARRIVAL",
+        "IN:GET_EVENT_ATTENDEE_AMOUNT",
+        "IN:COMBINE",
+        "IN:GET_DIRECTIONS",
+        "IN:GET_INFO_ROUTE",
+        "IN:GET_DISTANCE",
+        "IN:UNSUPPORTED_EVENT",
+        "IN:GET_ESTIMATED_DEPARTURE",
+        "IN:GET_INFO_ROAD_CONDITION",
+        "IN:GET_EVENT_ORGANIZER"
+    ],
+    "IN:GET_ESTIMATED_DURATION": [
+        "SL:DATE_TIME",
+        "SL:ROAD_CONDITION_AVOID",
+        "SL:OBSTRUCTION_AVOID",
+        "SL:ROAD_CONDITION",
+        "SL:WAYPOINT_AVOID",
+        "SL:DATE_TIME_DEPARTURE",
+        "SL:PATH_AVOID",
+        "SL:SOURCE",
+        "SL:METHOD_TRAVEL",
+        "SL:DATE_TIME_ARRIVAL",
+        "SL:DESTINATION",
+        "SL:WAYPOINT",
+        "SL:PATH"
+    ],
+    "SL:METHOD_TRAVEL": [],
+    "SL:SOURCE": [
+        "IN:GET_LOCATION_WORK",
+        "IN:GET_LOCATION",
+        "IN:GET_EVENT",
+        "IN:GET_LOCATION_SCHOOL",
+        "IN:GET_LOCATION_HOME"
+    ],
+    "SL:DESTINATION": [
+        "IN:GET_LOCATION_WORK",
+        "IN:GET_LOCATION",
+        "IN:GET_EVENT",
+        "IN:GET_LOCATION_SCHOOL",
+        "IN:GET_LOCATION_HOME"
+    ],
+    "IN:UNSUPPORTED_NAVIGATION": [],
+    "IN:GET_ESTIMATED_ARRIVAL": [
+        "SL:ROAD_CONDITION_AVOID",
+        "SL:OBSTRUCTION_AVOID",
+        "SL:ROAD_CONDITION",
+        "SL:DATE_TIME_DEPARTURE",
+        "SL:PATH_AVOID",
+        "SL:SOURCE",
+        "SL:DATE_TIME_ARRIVAL",
+        "SL:METHOD_TRAVEL",
+        "SL:OBSTRUCTION",
+        "SL:DESTINATION",
+        "SL:WAYPOINT",
+        "SL:LOCATION",
+        "SL:PATH"
+    ],
+    "IN:GET_LOCATION": [
+        "SL:SEARCH_RADIUS",
+        "SL:LOCATION_USER",
+        "SL:CATEGORY_LOCATION",
+        "SL:POINT_ON_MAP",
+        "SL:LOCATION_MODIFIER",
+        "SL:LOCATION"
+    ],
+    "SL:CATEGORY_LOCATION": [],
+    "SL:DATE_TIME_ARRIVAL": [],
+    "SL:DATE_TIME_DEPARTURE": [],
+    "IN:GET_ESTIMATED_DEPARTURE": [
+        "SL:OBSTRUCTION_AVOID",
+        "SL:ROAD_CONDITION",
+        "SL:DATE_TIME_DEPARTURE",
+        "SL:PATH_AVOID",
+        "SL:SOURCE",
+        "SL:DATE_TIME_ARRIVAL",
+        "SL:METHOD_TRAVEL",
+        "SL:DESTINATION",
+        "SL:WAYPOINT",
+        "SL:LOCATION",
+        "SL:PATH"
+    ],
+    "IN:GET_LOCATION_HOME": [
+        "SL:LOCATION_CURRENT",
+        "SL:CONTACT",
+        "SL:CONTACT_RELATED",
+        "SL:TYPE_RELATION",
+        "SL:LOCATION"
+    ],
+    "SL:CONTACT": [],
+    "SL:POINT_ON_MAP": [],
+    "IN:GET_INFO_TRAFFIC": [
+        "SL:DATE_TIME",
+        "SL:OBSTRUCTION_AVOID",
+        "SL:ROAD_CONDITION",
+        "SL:PATH_AVOID",
+        "SL:SOURCE",
+        "SL:DESTINATION",
+        "SL:METHOD_TRAVEL",
+        "SL:OBSTRUCTION",
+        "SL:LOCATION",
+        "SL:WAYPOINT",
+        "SL:PATH"
+    ],
+    "IN:GET_DIRECTIONS": [
+        "SL:AMOUNT",
+        "SL:ROAD_CONDITION_AVOID",
+        "SL:OBSTRUCTION_AVOID",
+        "SL:ROAD_CONDITION",
+        "SL:WAYPOINT_AVOID",
+        "SL:DATE_TIME_DEPARTURE",
+        "SL:PATH_AVOID",
+        "SL:SOURCE",
+        "SL:METHOD_TRAVEL",
+        "SL:DATE_TIME_ARRIVAL",
+        "SL:DESTINATION",
+        "SL:WAYPOINT",
+        "SL:LOCATION",
+        "SL:PATH"
+    ],
+    "IN:GET_EVENT": [
+        "SL:AMOUNT",
+        "SL:DATE_TIME",
+        "SL:NAME_EVENT",
+        "SL:ATTRIBUTE_EVENT",
+        "SL:ORDINAL",
+        "SL:ATTENDEE_EVENT",
+        "SL:CATEGORY_EVENT",
+        "SL:ORGANIZER_EVENT",
+        "SL:LOCATION"
+    ],
+    "SL:LOCATION": [
+        "IN:GET_LOCATION_HOMETOWN",
+        "IN:GET_LOCATION_WORK",
+        "IN:GET_LOCATION",
+        "IN:GET_EVENT",
+        "IN:GET_LOCATION_SCHOOL",
+        "IN:GET_LOCATION_HOME"
+    ],
+    "SL:PATH": [
+        "IN:GET_LOCATION"
+    ],
+    "SL:CATEGORY_EVENT": [
+        "IN:NEGATION"
+    ],
+    "SL:DATE_TIME": [
+        "IN:GET_EVENT"
+    ],
+    "SL:TYPE_RELATION": [],
+    "IN:GET_LOCATION_WORK": [
+        "SL:CONTACT",
+        "SL:CONTACT_RELATED",
+        "SL:LOCATION_WORK",
+        "SL:TYPE_RELATION",
+        "SL:LOCATION"
+    ],
+    "SL:LOCATION_MODIFIER": [
+        "IN:GET_LOCATION_HOME",
+        "IN:GET_LOCATION"
+    ],
+    "SL:SEARCH_RADIUS": [],
+    "IN:UNSUPPORTED": [],
+    "SL:LOCATION_USER": [],
+    "IN:GET_INFO_ROAD_CONDITION": [
+        "SL:DATE_TIME",
+        "SL:ROAD_CONDITION",
+        "SL:DATE_TIME_DEPARTURE",
+        "SL:SOURCE",
+        "SL:METHOD_TRAVEL",
+        "SL:DATE_TIME_ARRIVAL",
+        "SL:DESTINATION",
+        "SL:WAYPOINT",
+        "SL:LOCATION",
+        "SL:PATH"
+    ],
+    "SL:ROAD_CONDITION": [],
+    "IN:GET_DISTANCE": [
+        "SL:UNIT_DISTANCE",
+        "SL:DATE_TIME_DEPARTURE",
+        "SL:PATH_AVOID",
+        "SL:SOURCE",
+        "SL:METHOD_TRAVEL",
+        "SL:DESTINATION",
+        "SL:WAYPOINT",
+        "SL:PATH"
+    ],
+    "SL:UNIT_DISTANCE": [],
+    "SL:ATTRIBUTE_EVENT": [],
+    "SL:ORGANIZER_EVENT": [
+        "IN:GET_CONTACT"
+    ],
+    "SL:NAME_EVENT": [],
+    "IN:UPDATE_DIRECTIONS": [
+        "SL:WAYPOINT_ADDED",
+        "SL:OBSTRUCTION_AVOID",
+        "SL:WAYPOINT_AVOID",
+        "SL:DATE_TIME_DEPARTURE",
+        "SL:PATH_AVOID",
+        "SL:SOURCE",
+        "SL:DATE_TIME_ARRIVAL",
+        "SL:DESTINATION",
+        "SL:PATH"
+    ],
+    "SL:OBSTRUCTION_AVOID": [],
+    "SL:ATTENDEE_EVENT": [
+        "IN:GET_CONTACT"
+    ],
+    "SL:PATH_AVOID": [
+        "IN:GET_LOCATION"
+    ],
+    "SL:CONTACT_RELATED": [],
+    "IN:GET_EVENT_ATTENDEE": [
+        "SL:DATE_TIME",
+        "SL:CATEGORY_EVENT",
+        "SL:ORGANIZER_EVENT",
+        "SL:ATTENDEE_EVENT"
+    ],
+    "SL:ORDINAL": [],
+    "IN:GET_CONTACT": [
+        "SL:CONTACT",
+        "SL:CONTACT_RELATED",
+        "SL:TYPE_RELATION",
+        "SL:GROUP"
+    ],
+    "IN:UNSUPPORTED_EVENT": [],
+    "IN:GET_LOCATION_SCHOOL": [
+        "SL:CONTACT",
+        "SL:CONTACT_RELATED",
+        "SL:TYPE_RELATION"
+    ],
+    "IN:COMBINE": [
+        "SL:COMBINE"
+    ],
+    "SL:COMBINE": [
+        "IN:UNSUPPORTED_EVENT",
+        "IN:UNSUPPORTED",
+        "IN:GET_ESTIMATED_DEPARTURE",
+        "IN:UPDATE_DIRECTIONS",
+        "IN:UNSUPPORTED_NAVIGATION",
+        "IN:GET_ESTIMATED_ARRIVAL",
+        "IN:GET_INFO_ROAD_CONDITION",
+        "IN:GET_LOCATION",
+        "IN:GET_DIRECTIONS",
+        "IN:GET_INFO_ROUTE",
+        "IN:GET_DISTANCE",
+        "IN:GET_ESTIMATED_DURATION",
+        "IN:GET_EVENT",
+        "IN:GET_INFO_TRAFFIC"
+    ],
+    "IN:GET_INFO_ROUTE": [
+        "SL:DATE_TIME_DEPARTURE",
+        "SL:SOURCE",
+        "SL:METHOD_TRAVEL",
+        "SL:DESTINATION",
+        "SL:WAYPOINT",
+        "SL:PATH"
+    ],
+    "SL:ROAD_CONDITION_AVOID": [],
+    "SL:WAYPOINT": [
+        "IN:GET_LOCATION_SCHOOL",
+        "IN:GET_LOCATION_HOME",
+        "IN:GET_LOCATION_WORK",
+        "IN:GET_LOCATION"
+    ],
+    "SL:LOCATION_WORK": [],
+    "SL:WAYPOINT_AVOID": [
+        "IN:GET_EVENT",
+        "IN:GET_LOCATION"
+    ],
+    "SL:LOCATION_CURRENT": [],
+    "SL:OBSTRUCTION": [],
+    "IN:UNINTELLIGIBLE": [],
+    "IN:NEGATION": [],
+    "SL:GROUP": [],
+    "IN:GET_EVENT_ORGANIZER": [
+        "SL:DATE_TIME",
+        "SL:CATEGORY_EVENT",
+        "SL:ORGANIZER_EVENT",
+        "SL:LOCATION"
+    ],
+    "IN:GET_EVENT_ATTENDEE_AMOUNT": [
+        "SL:DATE_TIME",
+        "SL:NAME_EVENT",
+        "SL:ORDINAL",
+        "SL:CATEGORY_EVENT",
+        "SL:LOCATION"
+    ],
+    "IN:GET_LOCATION_HOMETOWN": [
+        "SL:CONTACT"
+    ],
+    "SL:AMOUNT": [],
+    "SL:WAYPOINT_ADDED": [
+        "IN:GET_LOCATION_HOME",
+        "IN:GET_LOCATION"
+    ]
+}

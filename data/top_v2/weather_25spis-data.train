@@ -1,0 +1,4234 @@
+[
+  {
+    "context": "How hot is it going to get today ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      1,
+      7
+    ],
+    "end_position": [
+      8,
+      1,
+      7
+    ],
+    "qas_id": 0,
+    "org_label": "[IN:GET_WEATHER How [SL:WEATHER_ATTRIBUTE hot ] is it going to get [SL:DATE_TIME today ] ? ]"
+  },
+  {
+    "context": "Temperature tonight for Beijing celsius",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME",
+      "SL:LOCATION",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "end_position": [
+      4,
+      1,
+      3,
+      4
+    ],
+    "qas_id": 1,
+    "org_label": "[IN:GET_WEATHER Temperature [SL:DATE_TIME tonight ] for [SL:LOCATION Beijing ] [SL:WEATHER_TEMPERATURE_UNIT celsius ] ]"
+  },
+  {
+    "context": "should I wear a coat",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      4
+    ],
+    "end_position": [
+      4,
+      4
+    ],
+    "qas_id": 2,
+    "org_label": "[IN:GET_WEATHER should I wear a [SL:WEATHER_ATTRIBUTE coat ] ]"
+  },
+  {
+    "context": "Will I need an umbrella tomorrow",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      4,
+      5
+    ],
+    "end_position": [
+      5,
+      4,
+      5
+    ],
+    "qas_id": 3,
+    "org_label": "[IN:GET_WEATHER Will I need an [SL:WEATHER_ATTRIBUTE umbrella ] [SL:DATE_TIME tomorrow ] ]"
+  },
+  {
+    "context": "What is this weekend 's forecast ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      2
+    ],
+    "end_position": [
+      6,
+      3
+    ],
+    "qas_id": 4,
+    "org_label": "[IN:GET_WEATHER What is [SL:DATE_TIME this weekend ] 's forecast ? ]"
+  },
+  {
+    "context": "Will it be cold today ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      3,
+      4
+    ],
+    "end_position": [
+      5,
+      3,
+      4
+    ],
+    "qas_id": 5,
+    "org_label": "[IN:GET_WEATHER Will it be [SL:WEATHER_ATTRIBUTE cold ] [SL:DATE_TIME today ] ? ]"
+  },
+  {
+    "context": "Tell me what the weather will be like at the weekend",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      8
+    ],
+    "end_position": [
+      10,
+      10
+    ],
+    "qas_id": 6,
+    "org_label": "[IN:GET_WEATHER Tell me what the weather will be like [SL:DATE_TIME at the weekend ] ]"
+  },
+  {
+    "context": "How warm is it tomorrow near Dehli in degrees celsius",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME",
+      "SL:LOCATION",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      1,
+      4,
+      6,
+      9
+    ],
+    "end_position": [
+      9,
+      1,
+      4,
+      6,
+      9
+    ],
+    "qas_id": 7,
+    "org_label": "[IN:GET_WEATHER How [SL:WEATHER_ATTRIBUTE warm ] is it [SL:DATE_TIME tomorrow ] near [SL:LOCATION Dehli ] in degrees [SL:WEATHER_TEMPERATURE_UNIT celsius ] ]"
+  },
+  {
+    "context": "Will I need an umbrella today ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      4,
+      5
+    ],
+    "end_position": [
+      6,
+      4,
+      5
+    ],
+    "qas_id": 8,
+    "org_label": "[IN:GET_WEATHER Will I need an [SL:WEATHER_ATTRIBUTE umbrella ] [SL:DATE_TIME today ] ? ]"
+  },
+  {
+    "context": "Tell me the weather for midday",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      4
+    ],
+    "end_position": [
+      5,
+      5
+    ],
+    "qas_id": 9,
+    "org_label": "[IN:GET_WEATHER Tell me the weather [SL:DATE_TIME for midday ] ]"
+  },
+  {
+    "context": "What will the weather be like this afternoon ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      6
+    ],
+    "end_position": [
+      8,
+      7
+    ],
+    "qas_id": 10,
+    "org_label": "[IN:GET_WEATHER What will the weather be like [SL:DATE_TIME this afternoon ] ? ]"
+  },
+  {
+    "context": "Is it raining ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      2
+    ],
+    "end_position": [
+      3,
+      2
+    ],
+    "qas_id": 11,
+    "org_label": "[IN:GET_WEATHER Is it [SL:WEATHER_ATTRIBUTE raining ] ? ]"
+  },
+  {
+    "context": "Show me how is the weather ?",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_WEATHER"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      6
+    ],
+    "qas_id": 12,
+    "org_label": "[IN:GET_WEATHER Show me how is the weather ? ]"
+  },
+  {
+    "context": "3 day forecast",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      0
+    ],
+    "end_position": [
+      2,
+      1
+    ],
+    "qas_id": 13,
+    "org_label": "[IN:GET_WEATHER [SL:DATE_TIME 3 day ] forecast ]"
+  },
+  {
+    "context": "What is the weather today",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      4
+    ],
+    "end_position": [
+      4,
+      4
+    ],
+    "qas_id": 14,
+    "org_label": "[IN:GET_WEATHER What is the weather [SL:DATE_TIME today ] ]"
+  },
+  {
+    "context": "Weather for Saturday night ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      1
+    ],
+    "end_position": [
+      4,
+      3
+    ],
+    "qas_id": 15,
+    "org_label": "[IN:GET_WEATHER Weather [SL:DATE_TIME for Saturday night ] ? ]"
+  },
+  {
+    "context": "What kind of weather should I expect on Victoria Day ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      7
+    ],
+    "end_position": [
+      10,
+      9
+    ],
+    "qas_id": 16,
+    "org_label": "[IN:GET_WEATHER What kind of weather should I expect [SL:DATE_TIME on Victoria Day ] ? ]"
+  },
+  {
+    "context": "Is there a flood warning for highway 55",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      6
+    ],
+    "end_position": [
+      7,
+      7
+    ],
+    "qas_id": 17,
+    "org_label": "[IN:GET_WEATHER Is there a flood warning for [SL:LOCATION highway 55 ] ]"
+  },
+  {
+    "context": "Give me the weather for Friday",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      4
+    ],
+    "end_position": [
+      5,
+      5
+    ],
+    "qas_id": 18,
+    "org_label": "[IN:GET_WEATHER Give me the weather [SL:DATE_TIME for Friday ] ]"
+  },
+  {
+    "context": "tell me the weekend weather report",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      3
+    ],
+    "end_position": [
+      5,
+      3
+    ],
+    "qas_id": 19,
+    "org_label": "[IN:GET_WEATHER tell me the [SL:DATE_TIME weekend ] weather report ]"
+  },
+  {
+    "context": "What is the low temperature today",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      5
+    ],
+    "end_position": [
+      5,
+      5
+    ],
+    "qas_id": 20,
+    "org_label": "[IN:GET_WEATHER What is the low temperature [SL:DATE_TIME today ] ]"
+  },
+  {
+    "context": "Is there such a thing as thunder snow",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      6
+    ],
+    "end_position": [
+      7,
+      7
+    ],
+    "qas_id": 21,
+    "org_label": "[IN:UNSUPPORTED_WEATHER Is there such a thing as [SL:WEATHER_ATTRIBUTE thunder snow ] ]"
+  },
+  {
+    "context": "Hey how cold will it be in Russia today ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      7,
+      8
+    ],
+    "end_position": [
+      9,
+      7,
+      8
+    ],
+    "qas_id": 22,
+    "org_label": "[IN:GET_WEATHER Hey how cold will it be in [SL:LOCATION Russia ] [SL:DATE_TIME today ] ? ]"
+  },
+  {
+    "context": "please tell me the weather in louisiana for the 6th of may",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      6,
+      7
+    ],
+    "end_position": [
+      11,
+      6,
+      11
+    ],
+    "qas_id": 23,
+    "org_label": "[IN:GET_WEATHER please tell me the weather in [SL:LOCATION louisiana ] [SL:DATE_TIME for the 6th of may ] ]"
+  },
+  {
+    "context": "Tell me the weather forecast for May 16th .",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      5
+    ],
+    "end_position": [
+      8,
+      7
+    ],
+    "qas_id": 24,
+    "org_label": "[IN:GET_WEATHER Tell me the weather forecast [SL:DATE_TIME for May 16th ] . ]"
+  },
+  {
+    "context": "What 's the weather going to be like on Sunday ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      8
+    ],
+    "end_position": [
+      10,
+      9
+    ],
+    "qas_id": 25,
+    "org_label": "[IN:GET_WEATHER What 's the weather going to be like [SL:DATE_TIME on Sunday ] ? ]"
+  },
+  {
+    "context": "What is the temperature in Celsius ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      5
+    ],
+    "end_position": [
+      6,
+      5
+    ],
+    "qas_id": 26,
+    "org_label": "[IN:GET_WEATHER What is the temperature in [SL:WEATHER_TEMPERATURE_UNIT Celsius ] ? ]"
+  },
+  {
+    "context": "what time will the storms roll in",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      4
+    ],
+    "end_position": [
+      6,
+      4
+    ],
+    "qas_id": 27,
+    "org_label": "[IN:GET_WEATHER what time will the [SL:WEATHER_ATTRIBUTE storms ] roll in ]"
+  },
+  {
+    "context": "Will the Orioles game be rained out tonight ?",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      5,
+      6,
+      7
+    ],
+    "end_position": [
+      8,
+      5,
+      6,
+      7
+    ],
+    "qas_id": 28,
+    "org_label": "[IN:GET_WEATHER Will the Orioles game be [SL:WEATHER_ATTRIBUTE rained ] [SL:LOCATION out ] [SL:DATE_TIME tonight ] ? ]"
+  },
+  {
+    "context": "What is the weather like in Ohio ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      6
+    ],
+    "end_position": [
+      7,
+      6
+    ],
+    "qas_id": 29,
+    "org_label": "[IN:GET_WEATHER What is the weather like in [SL:LOCATION Ohio ] ? ]"
+  },
+  {
+    "context": "Is it t - shirt weather this afternoon ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      2,
+      6
+    ],
+    "end_position": [
+      8,
+      4,
+      7
+    ],
+    "qas_id": 30,
+    "org_label": "[IN:GET_WEATHER Is it [SL:WEATHER_ATTRIBUTE t - shirt ] weather [SL:DATE_TIME this afternoon ] ? ]"
+  },
+  {
+    "context": "Do I need to wear a raincoat tonight ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      6,
+      7
+    ],
+    "end_position": [
+      8,
+      6,
+      7
+    ],
+    "qas_id": 31,
+    "org_label": "[IN:GET_WEATHER Do I need to wear a [SL:WEATHER_ATTRIBUTE raincoat ] [SL:DATE_TIME tonight ] ? ]"
+  },
+  {
+    "context": "ANy tornado warnings in my area",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      4
+    ],
+    "end_position": [
+      5,
+      5
+    ],
+    "qas_id": 32,
+    "org_label": "[IN:UNSUPPORTED_WEATHER ANy tornado warnings in [SL:LOCATION my area ] ]"
+  },
+  {
+    "context": "What percent change is it that the hurricane will hit San Juan , PR ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      7,
+      10
+    ],
+    "end_position": [
+      14,
+      7,
+      13
+    ],
+    "qas_id": 33,
+    "org_label": "[IN:GET_WEATHER What percent change is it that the [SL:WEATHER_ATTRIBUTE hurricane ] will hit [SL:LOCATION San Juan , PR ] ? ]"
+  },
+  {
+    "context": "What will the weather be in Hawaii in the next two weeks ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      6,
+      7
+    ],
+    "end_position": [
+      12,
+      6,
+      11
+    ],
+    "qas_id": 34,
+    "org_label": "[IN:GET_WEATHER What will the weather be in [SL:LOCATION Hawaii ] [SL:DATE_TIME in the next two weeks ] ? ]"
+  },
+  {
+    "context": "Give me today 's forecast for Sydney",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      6
+    ],
+    "end_position": [
+      6,
+      6
+    ],
+    "qas_id": 35,
+    "org_label": "[IN:GET_WEATHER Give me today 's forecast for [SL:LOCATION Sydney ] ]"
+  },
+  {
+    "context": "Should I wear rainboots ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      3
+    ],
+    "end_position": [
+      4,
+      3
+    ],
+    "qas_id": 36,
+    "org_label": "[IN:GET_WEATHER Should I wear [SL:WEATHER_ATTRIBUTE rainboots ] ? ]"
+  },
+  {
+    "context": "How cold is it outside ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      1
+    ],
+    "end_position": [
+      5,
+      1
+    ],
+    "qas_id": 37,
+    "org_label": "[IN:GET_WEATHER How [SL:WEATHER_ATTRIBUTE cold ] is it outside ? ]"
+  },
+  {
+    "context": "Is there going to be a monsoon this weekend",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      6,
+      7
+    ],
+    "end_position": [
+      8,
+      6,
+      8
+    ],
+    "qas_id": 38,
+    "org_label": "[IN:GET_WEATHER Is there going to be a [SL:WEATHER_ATTRIBUTE monsoon ] [SL:DATE_TIME this weekend ] ]"
+  },
+  {
+    "context": "Forecast please for California in August",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      3,
+      4
+    ],
+    "end_position": [
+      5,
+      3,
+      5
+    ],
+    "qas_id": 39,
+    "org_label": "[IN:GET_WEATHER Forecast please for [SL:LOCATION California ] [SL:DATE_TIME in August ] ]"
+  },
+  {
+    "context": "How many inches of snow fell in Philadelphia ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      4,
+      7
+    ],
+    "end_position": [
+      8,
+      4,
+      7
+    ],
+    "qas_id": 40,
+    "org_label": "[IN:GET_WEATHER How many inches of [SL:WEATHER_ATTRIBUTE snow ] fell in [SL:LOCATION Philadelphia ] ? ]"
+  },
+  {
+    "context": "When will it snow this year",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      3,
+      4
+    ],
+    "end_position": [
+      5,
+      3,
+      5
+    ],
+    "qas_id": 41,
+    "org_label": "[IN:UNSUPPORTED_WEATHER When will it [SL:WEATHER_ATTRIBUTE snow ] [SL:DATE_TIME this year ] ]"
+  },
+  {
+    "context": "Will it be hot tomorrow ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      3,
+      4
+    ],
+    "end_position": [
+      5,
+      3,
+      4
+    ],
+    "qas_id": 42,
+    "org_label": "[IN:GET_WEATHER Will it be [SL:WEATHER_ATTRIBUTE hot ] [SL:DATE_TIME tomorrow ] ? ]"
+  },
+  {
+    "context": "How much snow is predicted ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      2
+    ],
+    "end_position": [
+      5,
+      2
+    ],
+    "qas_id": 43,
+    "org_label": "[IN:GET_WEATHER How much [SL:WEATHER_ATTRIBUTE snow ] is predicted ? ]"
+  },
+  {
+    "context": "Is it hurricane season",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      2
+    ],
+    "end_position": [
+      3,
+      2
+    ],
+    "qas_id": 44,
+    "org_label": "[IN:UNSUPPORTED_WEATHER Is it [SL:WEATHER_ATTRIBUTE hurricane ] season ]"
+  },
+  {
+    "context": "What amount of rain is expected in cm ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      3
+    ],
+    "end_position": [
+      8,
+      3
+    ],
+    "qas_id": 45,
+    "org_label": "[IN:UNSUPPORTED_WEATHER What amount of [SL:WEATHER_ATTRIBUTE rain ] is expected in cm ? ]"
+  },
+  {
+    "context": "what is the weather for this sunday in Melbourne , Australia ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      4,
+      8
+    ],
+    "end_position": [
+      11,
+      6,
+      10
+    ],
+    "qas_id": 46,
+    "org_label": "[IN:GET_WEATHER what is the weather [SL:DATE_TIME for this sunday ] in [SL:LOCATION Melbourne , Australia ] ? ]"
+  },
+  {
+    "context": "Will it rain all day tomorrow in New York ?",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      2,
+      3,
+      7
+    ],
+    "end_position": [
+      9,
+      2,
+      5,
+      8
+    ],
+    "qas_id": 47,
+    "org_label": "[IN:GET_WEATHER Will it [SL:WEATHER_ATTRIBUTE rain ] [SL:DATE_TIME all day tomorrow ] in [SL:LOCATION New York ] ? ]"
+  },
+  {
+    "context": "Do I need to wear sunscreen outside today",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      5,
+      7
+    ],
+    "end_position": [
+      7,
+      5,
+      7
+    ],
+    "qas_id": 48,
+    "org_label": "[IN:GET_WEATHER Do I need to wear [SL:WEATHER_ATTRIBUTE sunscreen ] outside [SL:DATE_TIME today ] ]"
+  },
+  {
+    "context": "How 's the weather in Sweden ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      5
+    ],
+    "end_position": [
+      6,
+      5
+    ],
+    "qas_id": 49,
+    "org_label": "[IN:GET_WEATHER How 's the weather in [SL:LOCATION Sweden ] ? ]"
+  },
+  {
+    "context": "How much snow ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      2
+    ],
+    "end_position": [
+      3,
+      2
+    ],
+    "qas_id": 50,
+    "org_label": "[IN:GET_WEATHER How much [SL:WEATHER_ATTRIBUTE snow ] ? ]"
+  },
+  {
+    "context": "Let me see the weather forecast for Colorado this weekend",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      7,
+      8
+    ],
+    "end_position": [
+      9,
+      7,
+      9
+    ],
+    "qas_id": 51,
+    "org_label": "[IN:GET_WEATHER Let me see the weather forecast for [SL:LOCATION Colorado ] [SL:DATE_TIME this weekend ] ]"
+  },
+  {
+    "context": "Is it around 40 degree f in Dublin tomorrow",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:WEATHER_TEMPERATURE_UNIT",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      2,
+      3,
+      5,
+      7,
+      8
+    ],
+    "end_position": [
+      8,
+      2,
+      3,
+      5,
+      7,
+      8
+    ],
+    "qas_id": 52,
+    "org_label": "[IN:GET_WEATHER Is it [SL:WEATHER_ATTRIBUTE around ] [SL:WEATHER_ATTRIBUTE 40 ] degree [SL:WEATHER_TEMPERATURE_UNIT f ] in [SL:LOCATION Dublin ] [SL:DATE_TIME tomorrow ] ]"
+  },
+  {
+    "context": "whats the weather in south haven",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      4
+    ],
+    "end_position": [
+      5,
+      5
+    ],
+    "qas_id": 53,
+    "org_label": "[IN:GET_WEATHER whats the weather in [SL:LOCATION south haven ] ]"
+  },
+  {
+    "context": "What is the weather doing in Melbourne Victoria",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      6
+    ],
+    "end_position": [
+      7,
+      7
+    ],
+    "qas_id": 54,
+    "org_label": "[IN:GET_WEATHER What is the weather doing in [SL:LOCATION Melbourne Victoria ] ]"
+  },
+  {
+    "context": "Is it going to rain the entire day in Miami ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      4,
+      9
+    ],
+    "end_position": [
+      10,
+      4,
+      9
+    ],
+    "qas_id": 55,
+    "org_label": "[IN:GET_WEATHER Is it going to [SL:WEATHER_ATTRIBUTE rain ] the entire day in [SL:LOCATION Miami ] ? ]"
+  },
+  {
+    "context": "Temperature san francisco tomorrow morning c",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "SL:DATE_TIME",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "end_position": [
+      5,
+      2,
+      4,
+      5
+    ],
+    "qas_id": 56,
+    "org_label": "[IN:GET_WEATHER Temperature [SL:LOCATION san francisco ] [SL:DATE_TIME tomorrow morning ] [SL:WEATHER_TEMPERATURE_UNIT c ] ]"
+  },
+  {
+    "context": "What is the weather like in Dallas , Texas today ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      6,
+      9
+    ],
+    "end_position": [
+      10,
+      8,
+      9
+    ],
+    "qas_id": 57,
+    "org_label": "[IN:GET_WEATHER What is the weather like in [SL:LOCATION Dallas , Texas ] [SL:DATE_TIME today ] ? ]"
+  },
+  {
+    "context": "What time does the sun rise",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      5
+    ],
+    "qas_id": 58,
+    "org_label": "[IN:GET_SUNRISE What time does the sun rise ]"
+  },
+  {
+    "context": "What is the lowest temperature in Alaska ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      6
+    ],
+    "end_position": [
+      7,
+      6
+    ],
+    "qas_id": 59,
+    "org_label": "[IN:GET_WEATHER What is the lowest temperature in [SL:LOCATION Alaska ] ? ]"
+  },
+  {
+    "context": "Show me the Australian forecast",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      3
+    ],
+    "end_position": [
+      4,
+      3
+    ],
+    "qas_id": 60,
+    "org_label": "[IN:GET_WEATHER Show me the [SL:LOCATION Australian ] forecast ]"
+  },
+  {
+    "context": "Will it be around 66 degree celcius manila next week",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:WEATHER_TEMPERATURE_UNIT",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "end_position": [
+      9,
+      3,
+      4,
+      6,
+      7,
+      9
+    ],
+    "qas_id": 61,
+    "org_label": "[IN:GET_WEATHER Will it be [SL:WEATHER_ATTRIBUTE around ] [SL:WEATHER_ATTRIBUTE 66 ] degree [SL:WEATHER_TEMPERATURE_UNIT celcius ] [SL:LOCATION manila ] [SL:DATE_TIME next week ] ]"
+  },
+  {
+    "context": "Is it around 72 in degree celsius karachi tonight",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:WEATHER_TEMPERATURE_UNIT",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      2,
+      3,
+      6,
+      7,
+      8
+    ],
+    "end_position": [
+      8,
+      2,
+      3,
+      6,
+      7,
+      8
+    ],
+    "qas_id": 62,
+    "org_label": "[IN:GET_WEATHER Is it [SL:WEATHER_ATTRIBUTE around ] [SL:WEATHER_ATTRIBUTE 72 ] in degree [SL:WEATHER_TEMPERATURE_UNIT celsius ] [SL:LOCATION karachi ] [SL:DATE_TIME tonight ] ]"
+  },
+  {
+    "context": "What time will the sun set in Tokyo tomorrow",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNSET",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      7,
+      8
+    ],
+    "end_position": [
+      8,
+      7,
+      8
+    ],
+    "qas_id": 63,
+    "org_label": "[IN:GET_SUNSET What time will the sun set in [SL:LOCATION Tokyo ] [SL:DATE_TIME tomorrow ] ]"
+  },
+  {
+    "context": "What is the record low so far this year",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      7
+    ],
+    "end_position": [
+      8,
+      8
+    ],
+    "qas_id": 64,
+    "org_label": "[IN:UNSUPPORTED_WEATHER What is the record low so far [SL:DATE_TIME this year ] ]"
+  },
+  {
+    "context": "How much rainfall has Albuquerque New Mexico received this year",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      2,
+      4,
+      8
+    ],
+    "end_position": [
+      9,
+      2,
+      6,
+      9
+    ],
+    "qas_id": 65,
+    "org_label": "[IN:UNSUPPORTED_WEATHER How much [SL:WEATHER_ATTRIBUTE rainfall ] has [SL:LOCATION Albuquerque New Mexico ] received [SL:DATE_TIME this year ] ]"
+  },
+  {
+    "context": "Temperature near Boston tomorrow morning Celsius",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "SL:DATE_TIME",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      2,
+      3,
+      5
+    ],
+    "end_position": [
+      5,
+      2,
+      4,
+      5
+    ],
+    "qas_id": 66,
+    "org_label": "[IN:GET_WEATHER Temperature near [SL:LOCATION Boston ] [SL:DATE_TIME tomorrow morning ] [SL:WEATHER_TEMPERATURE_UNIT Celsius ] ]"
+  },
+  {
+    "context": "what is the pollen level right now",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      3
+    ],
+    "end_position": [
+      6,
+      3
+    ],
+    "qas_id": 67,
+    "org_label": "[IN:UNSUPPORTED_WEATHER what is the [SL:WEATHER_ATTRIBUTE pollen ] level right now ]"
+  },
+  {
+    "context": "What is the temperature right now in Celsius and Fahrenheit ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_TEMPERATURE_UNIT",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      7,
+      9
+    ],
+    "end_position": [
+      10,
+      7,
+      9
+    ],
+    "qas_id": 68,
+    "org_label": "[IN:GET_WEATHER What is the temperature right now in [SL:WEATHER_TEMPERATURE_UNIT Celsius ] and [SL:WEATHER_TEMPERATURE_UNIT Fahrenheit ] ? ]"
+  },
+  {
+    "context": "Temperature next week for Madrid Celsius",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME",
+      "SL:LOCATION",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "end_position": [
+      5,
+      2,
+      4,
+      5
+    ],
+    "qas_id": 69,
+    "org_label": "[IN:GET_WEATHER Temperature [SL:DATE_TIME next week ] for [SL:LOCATION Madrid ] [SL:WEATHER_TEMPERATURE_UNIT Celsius ] ]"
+  },
+  {
+    "context": "Temperature tonight for Houston c",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME",
+      "SL:LOCATION",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "end_position": [
+      4,
+      1,
+      3,
+      4
+    ],
+    "qas_id": 70,
+    "org_label": "[IN:GET_WEATHER Temperature [SL:DATE_TIME tonight ] for [SL:LOCATION Houston ] [SL:WEATHER_TEMPERATURE_UNIT c ] ]"
+  },
+  {
+    "context": "Will there be an earthquake anytime soon",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      6
+    ],
+    "qas_id": 71,
+    "org_label": "[IN:UNSUPPORTED_WEATHER Will there be an earthquake anytime soon ]"
+  },
+  {
+    "context": "How low do temperatures drop in Joshua Tree at night this time of year",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      8
+    ],
+    "end_position": [
+      13,
+      9
+    ],
+    "qas_id": 72,
+    "org_label": "[IN:UNSUPPORTED_WEATHER How low do temperatures drop in Joshua Tree [SL:DATE_TIME at night ] this time of year ]"
+  },
+  {
+    "context": "How many mm of rain are we expecting this evening .",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:MEASUREMENT_UNIT",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      2,
+      4,
+      8
+    ],
+    "end_position": [
+      10,
+      2,
+      4,
+      9
+    ],
+    "qas_id": 73,
+    "org_label": "[IN:GET_WEATHER How many [SL:MEASUREMENT_UNIT mm ] of [SL:WEATHER_ATTRIBUTE rain ] are we expecting [SL:DATE_TIME this evening ] . ]"
+  },
+  {
+    "context": "How cold is it tomorrow morning near Karachi in celsius",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME",
+      "SL:LOCATION",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      1,
+      4,
+      7,
+      9
+    ],
+    "end_position": [
+      9,
+      1,
+      5,
+      7,
+      9
+    ],
+    "qas_id": 74,
+    "org_label": "[IN:GET_WEATHER How [SL:WEATHER_ATTRIBUTE cold ] is it [SL:DATE_TIME tomorrow morning ] near [SL:LOCATION Karachi ] in [SL:WEATHER_TEMPERATURE_UNIT celsius ] ]"
+  },
+  {
+    "context": "What is the Dew Point in Kentucky today",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      3,
+      6,
+      7
+    ],
+    "end_position": [
+      7,
+      4,
+      6,
+      7
+    ],
+    "qas_id": 75,
+    "org_label": "[IN:UNSUPPORTED_WEATHER What is the [SL:WEATHER_ATTRIBUTE Dew Point ] in [SL:LOCATION Kentucky ] [SL:DATE_TIME today ] ]"
+  },
+  {
+    "context": "What city has the most sunny days in 2017",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      5
+    ],
+    "end_position": [
+      8,
+      5
+    ],
+    "qas_id": 76,
+    "org_label": "[IN:UNSUPPORTED_WEATHER What city has the most [SL:WEATHER_ATTRIBUTE sunny ] days in 2017 ]"
+  },
+  {
+    "context": "Time of sundown ?",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNSET"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      3
+    ],
+    "qas_id": 77,
+    "org_label": "[IN:GET_SUNSET Time of sundown ? ]"
+  },
+  {
+    "context": "How hot is it mumbai tonight in degree Celcius",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:LOCATION",
+      "SL:DATE_TIME",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      1,
+      4,
+      5,
+      8
+    ],
+    "end_position": [
+      8,
+      1,
+      4,
+      5,
+      8
+    ],
+    "qas_id": 78,
+    "org_label": "[IN:GET_WEATHER How [SL:WEATHER_ATTRIBUTE hot ] is it [SL:LOCATION mumbai ] [SL:DATE_TIME tonight ] in degree [SL:WEATHER_TEMPERATURE_UNIT Celcius ] ]"
+  },
+  {
+    "context": "How many hurricanes have hit Florida this year",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      5,
+      6
+    ],
+    "end_position": [
+      7,
+      5,
+      7
+    ],
+    "qas_id": 79,
+    "org_label": "[IN:UNSUPPORTED_WEATHER How many hurricanes have hit [SL:LOCATION Florida ] [SL:DATE_TIME this year ] ]"
+  },
+  {
+    "context": "What is the next named hurricane",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      5
+    ],
+    "end_position": [
+      5,
+      5
+    ],
+    "qas_id": 80,
+    "org_label": "[IN:UNSUPPORTED_WEATHER What is the next named [SL:WEATHER_ATTRIBUTE hurricane ] ]"
+  },
+  {
+    "context": "What will be the minimum temperature in Celsius ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      7
+    ],
+    "end_position": [
+      8,
+      7
+    ],
+    "qas_id": 81,
+    "org_label": "[IN:GET_WEATHER What will be the minimum temperature in [SL:WEATHER_TEMPERATURE_UNIT Celsius ] ? ]"
+  },
+  {
+    "context": "How warm is it this weekend in f",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      1,
+      4,
+      7
+    ],
+    "end_position": [
+      7,
+      1,
+      5,
+      7
+    ],
+    "qas_id": 82,
+    "org_label": "[IN:GET_WEATHER How [SL:WEATHER_ATTRIBUTE warm ] is it [SL:DATE_TIME this weekend ] in [SL:WEATHER_TEMPERATURE_UNIT f ] ]"
+  },
+  {
+    "context": "when will spring start",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      2
+    ],
+    "end_position": [
+      3,
+      2
+    ],
+    "qas_id": 83,
+    "org_label": "[IN:UNSUPPORTED_WEATHER when will [SL:DATE_TIME spring ] start ]"
+  },
+  {
+    "context": "Will it be above 86 in degree F here next week",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:WEATHER_TEMPERATURE_UNIT",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      3,
+      4,
+      7,
+      8,
+      9
+    ],
+    "end_position": [
+      10,
+      3,
+      4,
+      7,
+      8,
+      10
+    ],
+    "qas_id": 84,
+    "org_label": "[IN:GET_WEATHER Will it be [SL:WEATHER_ATTRIBUTE above ] [SL:WEATHER_ATTRIBUTE 86 ] in degree [SL:WEATHER_TEMPERATURE_UNIT F ] [SL:LOCATION here ] [SL:DATE_TIME next week ] ]"
+  },
+  {
+    "context": "How hot is it around San Francisco tonight in Celsius",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:LOCATION",
+      "SL:DATE_TIME",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      1,
+      5,
+      7,
+      9
+    ],
+    "end_position": [
+      9,
+      1,
+      6,
+      7,
+      9
+    ],
+    "qas_id": 85,
+    "org_label": "[IN:GET_WEATHER How [SL:WEATHER_ATTRIBUTE hot ] is it around [SL:LOCATION San Francisco ] [SL:DATE_TIME tonight ] in [SL:WEATHER_TEMPERATURE_UNIT Celsius ] ]"
+  },
+  {
+    "context": "What time is the sunrise tomorrow",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      5
+    ],
+    "end_position": [
+      5,
+      5
+    ],
+    "qas_id": 86,
+    "org_label": "[IN:GET_SUNRISE What time is the sunrise [SL:DATE_TIME tomorrow ] ]"
+  },
+  {
+    "context": "Temperature in Shanghai today F",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "SL:DATE_TIME",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "end_position": [
+      4,
+      2,
+      3,
+      4
+    ],
+    "qas_id": 87,
+    "org_label": "[IN:GET_WEATHER Temperature in [SL:LOCATION Shanghai ] [SL:DATE_TIME today ] [SL:WEATHER_TEMPERATURE_UNIT F ] ]"
+  },
+  {
+    "context": "How warm is it next week for Karachi in degree celcius",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME",
+      "SL:LOCATION",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      1,
+      4,
+      7,
+      10
+    ],
+    "end_position": [
+      10,
+      1,
+      5,
+      7,
+      10
+    ],
+    "qas_id": 88,
+    "org_label": "[IN:GET_WEATHER How [SL:WEATHER_ATTRIBUTE warm ] is it [SL:DATE_TIME next week ] for [SL:LOCATION Karachi ] in degree [SL:WEATHER_TEMPERATURE_UNIT celcius ] ]"
+  },
+  {
+    "context": "How warm is it tomorrow morning c",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      1,
+      4,
+      6
+    ],
+    "end_position": [
+      6,
+      1,
+      5,
+      6
+    ],
+    "qas_id": 89,
+    "org_label": "[IN:GET_WEATHER How [SL:WEATHER_ATTRIBUTE warm ] is it [SL:DATE_TIME tomorrow morning ] [SL:WEATHER_TEMPERATURE_UNIT c ] ]"
+  },
+  {
+    "context": "Temperature around Chicago today f",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "SL:DATE_TIME",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "end_position": [
+      4,
+      2,
+      3,
+      4
+    ],
+    "qas_id": 90,
+    "org_label": "[IN:GET_WEATHER Temperature around [SL:LOCATION Chicago ] [SL:DATE_TIME today ] [SL:WEATHER_TEMPERATURE_UNIT f ] ]"
+  },
+  {
+    "context": "Will it be below 76 in Celsius shanghai next week",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:WEATHER_TEMPERATURE_UNIT",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "end_position": [
+      9,
+      3,
+      4,
+      6,
+      7,
+      9
+    ],
+    "qas_id": 91,
+    "org_label": "[IN:GET_WEATHER Will it be [SL:WEATHER_ATTRIBUTE below ] [SL:WEATHER_ATTRIBUTE 76 ] in [SL:WEATHER_TEMPERATURE_UNIT Celsius ] [SL:LOCATION shanghai ] [SL:DATE_TIME next week ] ]"
+  },
+  {
+    "context": "when is the sun setting tonight",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNSET",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      5
+    ],
+    "end_position": [
+      5,
+      5
+    ],
+    "qas_id": 92,
+    "org_label": "[IN:GET_SUNSET when is the sun setting [SL:DATE_TIME tonight ] ]"
+  },
+  {
+    "context": "When is it supposed to clear up",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      5
+    ],
+    "end_position": [
+      6,
+      5
+    ],
+    "qas_id": 93,
+    "org_label": "[IN:UNSUPPORTED_WEATHER When is it supposed to [SL:WEATHER_ATTRIBUTE clear ] up ]"
+  },
+  {
+    "context": "How warm is it tomorrow morning around Palo Alto in C",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME",
+      "SL:LOCATION",
+      "SL:WEATHER_TEMPERATURE_UNIT"
+    ],
+    "start_position": [
+      0,
+      1,
+      4,
+      7,
+      10
+    ],
+    "end_position": [
+      10,
+      1,
+      5,
+      8,
+      10
+    ],
+    "qas_id": 94,
+    "org_label": "[IN:GET_WEATHER How [SL:WEATHER_ATTRIBUTE warm ] is it [SL:DATE_TIME tomorrow morning ] around [SL:LOCATION Palo Alto ] in [SL:WEATHER_TEMPERATURE_UNIT C ] ]"
+  },
+  {
+    "context": "best time to go to new york for warm weather",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:LOCATION",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      5,
+      8
+    ],
+    "end_position": [
+      9,
+      6,
+      8
+    ],
+    "qas_id": 95,
+    "org_label": "[IN:UNSUPPORTED_WEATHER best time to go to [SL:LOCATION new york ] for [SL:WEATHER_ATTRIBUTE warm ] weather ]"
+  },
+  {
+    "context": "Is it below 70 degrees Celsius around Shanghai tomorrow",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:WEATHER_TEMPERATURE_UNIT",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      2,
+      3,
+      5,
+      7,
+      8
+    ],
+    "end_position": [
+      8,
+      2,
+      3,
+      5,
+      7,
+      8
+    ],
+    "qas_id": 96,
+    "org_label": "[IN:GET_WEATHER Is it [SL:WEATHER_ATTRIBUTE below ] [SL:WEATHER_ATTRIBUTE 70 ] degrees [SL:WEATHER_TEMPERATURE_UNIT Celsius ] around [SL:LOCATION Shanghai ] [SL:DATE_TIME tomorrow ] ]"
+  },
+  {
+    "context": "What is the rainiest place on earth",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      3
+    ],
+    "end_position": [
+      6,
+      3
+    ],
+    "qas_id": 97,
+    "org_label": "[IN:UNSUPPORTED_WEATHER What is the [SL:WEATHER_ATTRIBUTE rainiest ] place on earth ]"
+  },
+  {
+    "context": "How are the allergy reports today ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      5
+    ],
+    "end_position": [
+      6,
+      5
+    ],
+    "qas_id": 98,
+    "org_label": "[IN:UNSUPPORTED_WEATHER How are the allergy reports [SL:DATE_TIME today ] ? ]"
+  },
+  {
+    "context": "where is the coldest place in the world right now",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      3
+    ],
+    "end_position": [
+      9,
+      3
+    ],
+    "qas_id": 99,
+    "org_label": "[IN:UNSUPPORTED_WEATHER where is the [SL:WEATHER_ATTRIBUTE coldest ] place in the world right now ]"
+  },
+  {
+    "context": "Is it hotter today in Los Angeles or San Diego ?",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME",
+      "SL:LOCATION",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      2,
+      3,
+      5,
+      8
+    ],
+    "end_position": [
+      10,
+      2,
+      3,
+      6,
+      9
+    ],
+    "qas_id": 100,
+    "org_label": "[IN:UNSUPPORTED_WEATHER Is it [SL:WEATHER_ATTRIBUTE hotter ] [SL:DATE_TIME today ] in [SL:LOCATION Los Angeles ] or [SL:LOCATION San Diego ] ? ]"
+  },
+  {
+    "context": "What time did the sun rise today",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      6
+    ],
+    "end_position": [
+      6,
+      6
+    ],
+    "qas_id": 101,
+    "org_label": "[IN:GET_SUNRISE What time did the sun rise [SL:DATE_TIME today ] ]"
+  },
+  {
+    "context": "What 's the pollen count for today ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      3,
+      5
+    ],
+    "end_position": [
+      7,
+      4,
+      6
+    ],
+    "qas_id": 102,
+    "org_label": "[IN:UNSUPPORTED_WEATHER What 's the [SL:WEATHER_ATTRIBUTE pollen count ] [SL:DATE_TIME for today ] ? ]"
+  },
+  {
+    "context": "local fire report",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      2
+    ],
+    "qas_id": 103,
+    "org_label": "[IN:UNSUPPORTED_WEATHER local fire report ]"
+  },
+  {
+    "context": "When is hurricane season in Mexico",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      2
+    ],
+    "end_position": [
+      5,
+      2
+    ],
+    "qas_id": 104,
+    "org_label": "[IN:UNSUPPORTED_WEATHER When is [SL:WEATHER_ATTRIBUTE hurricane ] season in Mexico ]"
+  },
+  {
+    "context": "What time does the sunset",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNSET"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      4
+    ],
+    "qas_id": 105,
+    "org_label": "[IN:GET_SUNSET What time does the sunset ]"
+  },
+  {
+    "context": "Is it ok for me to put the washing out today ?",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:UNSUPPORTED_WEATHER"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      11
+    ],
+    "qas_id": 106,
+    "org_label": "[IN:UNSUPPORTED_WEATHER Is it ok for me to put the washing out today ? ]"
+  },
+  {
+    "context": "when is sunset ?",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNSET"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      3
+    ],
+    "qas_id": 107,
+    "org_label": "[IN:GET_SUNSET when is sunset ? ]"
+  },
+  {
+    "context": "what time does the sun set",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNSET"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      5
+    ],
+    "qas_id": 108,
+    "org_label": "[IN:GET_SUNSET what time does the sun set ]"
+  },
+  {
+    "context": "What time does the sun set today in New York",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNSET",
+      "SL:DATE_TIME",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      6,
+      8
+    ],
+    "end_position": [
+      9,
+      6,
+      9
+    ],
+    "qas_id": 109,
+    "org_label": "[IN:GET_SUNSET What time does the sun set [SL:DATE_TIME today ] in [SL:LOCATION New York ] ]"
+  },
+  {
+    "context": "what time does the sun set in Cape Cod",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNSET",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      7
+    ],
+    "end_position": [
+      8,
+      8
+    ],
+    "qas_id": 110,
+    "org_label": "[IN:GET_SUNSET what time does the sun set in [SL:LOCATION Cape Cod ] ]"
+  },
+  {
+    "context": "What time does the sun set today",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNSET",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      6
+    ],
+    "end_position": [
+      6,
+      6
+    ],
+    "qas_id": 111,
+    "org_label": "[IN:GET_SUNSET What time does the sun set [SL:DATE_TIME today ] ]"
+  },
+  {
+    "context": "when 's sunrise",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      2
+    ],
+    "qas_id": 112,
+    "org_label": "[IN:GET_SUNRISE when 's sunrise ]"
+  },
+  {
+    "context": "When is sunrise",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      2
+    ],
+    "qas_id": 113,
+    "org_label": "[IN:GET_SUNRISE When is sunrise ]"
+  },
+  {
+    "context": "What time is sunrise tomorrow",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      4
+    ],
+    "end_position": [
+      4,
+      4
+    ],
+    "qas_id": 114,
+    "org_label": "[IN:GET_SUNRISE What time is sunrise [SL:DATE_TIME tomorrow ] ]"
+  },
+  {
+    "context": "whats the weather radar look like near me",
+    "entity_level": [
+      1,
+      2,
+      3,
+      4,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:SEARCH_RADIUS",
+      "SL:LOCATION_USER"
+    ],
+    "start_position": [
+      0,
+      6,
+      6,
+      6,
+      7
+    ],
+    "end_position": [
+      7,
+      7,
+      7,
+      6,
+      7
+    ],
+    "qas_id": 115,
+    "org_label": "[IN:GET_WEATHER whats the weather radar look like [SL:LOCATION [IN:GET_LOCATION [SL:SEARCH_RADIUS near ] [SL:LOCATION_USER me ] ] ] ]"
+  },
+  {
+    "context": "when will sunset be",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNSET"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      3
+    ],
+    "qas_id": 116,
+    "org_label": "[IN:GET_SUNSET when will sunset be ]"
+  },
+  {
+    "context": "When will the sun set in Delaware",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNSET",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      6
+    ],
+    "end_position": [
+      6,
+      6
+    ],
+    "qas_id": 117,
+    "org_label": "[IN:GET_SUNSET When will the sun set in [SL:LOCATION Delaware ] ]"
+  },
+  {
+    "context": "tell me when it starts getting dark outside",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNSET"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      7
+    ],
+    "qas_id": 118,
+    "org_label": "[IN:GET_SUNSET tell me when it starts getting dark outside ]"
+  },
+  {
+    "context": "what is the local radar forecast",
+    "entity_level": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_MODIFIER"
+    ],
+    "start_position": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "end_position": [
+      5,
+      3,
+      3,
+      3
+    ],
+    "qas_id": 119,
+    "org_label": "[IN:GET_WEATHER what is the [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_MODIFIER local ] ] ] radar forecast ]"
+  },
+  {
+    "context": "When will the sun set tonight",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNSET",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      5
+    ],
+    "end_position": [
+      5,
+      5
+    ],
+    "qas_id": 120,
+    "org_label": "[IN:GET_SUNSET When will the sun set [SL:DATE_TIME tonight ] ]"
+  },
+  {
+    "context": "When does the sunset",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNSET"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      3
+    ],
+    "qas_id": 121,
+    "org_label": "[IN:GET_SUNSET When does the sunset ]"
+  },
+  {
+    "context": "can you tell me the local radar prediction",
+    "entity_level": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_MODIFIER"
+    ],
+    "start_position": [
+      0,
+      5,
+      5,
+      5
+    ],
+    "end_position": [
+      7,
+      5,
+      5,
+      5
+    ],
+    "qas_id": 122,
+    "org_label": "[IN:GET_WEATHER can you tell me the [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_MODIFIER local ] ] ] radar prediction ]"
+  },
+  {
+    "context": "What time is sunrise ?",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      4
+    ],
+    "qas_id": 123,
+    "org_label": "[IN:GET_SUNRISE What time is sunrise ? ]"
+  },
+  {
+    "context": "when does the sun rise",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      4
+    ],
+    "qas_id": 124,
+    "org_label": "[IN:GET_SUNRISE when does the sun rise ]"
+  },
+  {
+    "context": "What time does the sun rise tomorrow",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      6
+    ],
+    "end_position": [
+      6,
+      6
+    ],
+    "qas_id": 125,
+    "org_label": "[IN:GET_SUNRISE What time does the sun rise [SL:DATE_TIME tomorrow ] ]"
+  },
+  {
+    "context": "What time is Sunset tonight",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNSET",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      4
+    ],
+    "end_position": [
+      4,
+      4
+    ],
+    "qas_id": 126,
+    "org_label": "[IN:GET_SUNSET What time is Sunset [SL:DATE_TIME tonight ] ]"
+  },
+  {
+    "context": "what is the weather here ?",
+    "entity_level": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_USER"
+    ],
+    "start_position": [
+      0,
+      4,
+      4,
+      4
+    ],
+    "end_position": [
+      5,
+      4,
+      4,
+      4
+    ],
+    "qas_id": 127,
+    "org_label": "[IN:GET_WEATHER what is the weather [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_USER here ] ] ] ? ]"
+  },
+  {
+    "context": "how long until the sun sets",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNSET"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      5
+    ],
+    "qas_id": 128,
+    "org_label": "[IN:GET_SUNSET how long until the sun sets ]"
+  },
+  {
+    "context": "What time does the sunset occur tonight",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNSET",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      6
+    ],
+    "end_position": [
+      6,
+      6
+    ],
+    "qas_id": 129,
+    "org_label": "[IN:GET_SUNSET What time does the sunset occur [SL:DATE_TIME tonight ] ]"
+  },
+  {
+    "context": "what time will it start to get dark out",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNSET"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      8
+    ],
+    "qas_id": 130,
+    "org_label": "[IN:GET_SUNSET what time will it start to get dark out ]"
+  },
+  {
+    "context": "When is sunset today",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNSET",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      3
+    ],
+    "end_position": [
+      3,
+      3
+    ],
+    "qas_id": 131,
+    "org_label": "[IN:GET_SUNSET When is sunset [SL:DATE_TIME today ] ]"
+  },
+  {
+    "context": "What time does the sun rise tomorrow",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      6
+    ],
+    "end_position": [
+      6,
+      6
+    ],
+    "qas_id": 132,
+    "org_label": "[IN:GET_SUNRISE What time does the sun rise [SL:DATE_TIME tomorrow ] ]"
+  },
+  {
+    "context": "what 's the local radar like tomorrow",
+    "entity_level": [
+      1,
+      2,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "SL:DATE_TIME",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_MODIFIER"
+    ],
+    "start_position": [
+      0,
+      3,
+      6,
+      3,
+      3
+    ],
+    "end_position": [
+      6,
+      3,
+      6,
+      3,
+      3
+    ],
+    "qas_id": 133,
+    "org_label": "[IN:GET_WEATHER what 's the [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_MODIFIER local ] ] ] radar like [SL:DATE_TIME tomorrow ] ]"
+  },
+  {
+    "context": "when does the sun set tonight",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNSET",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      5
+    ],
+    "end_position": [
+      5,
+      5
+    ],
+    "qas_id": 134,
+    "org_label": "[IN:GET_SUNSET when does the sun set [SL:DATE_TIME tonight ] ]"
+  },
+  {
+    "context": "when does the sun set in California",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNSET",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      6
+    ],
+    "end_position": [
+      6,
+      6
+    ],
+    "qas_id": 135,
+    "org_label": "[IN:GET_SUNSET when does the sun set in [SL:LOCATION California ] ]"
+  },
+  {
+    "context": "when does the sun set",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNSET"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      4
+    ],
+    "qas_id": 136,
+    "org_label": "[IN:GET_SUNSET when does the sun set ]"
+  },
+  {
+    "context": "What time does the sun set",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNSET"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      5
+    ],
+    "qas_id": 137,
+    "org_label": "[IN:GET_SUNSET What time does the sun set ]"
+  },
+  {
+    "context": "Do you know when sundown is tonight ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNSET",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      6
+    ],
+    "end_position": [
+      7,
+      6
+    ],
+    "qas_id": 138,
+    "org_label": "[IN:GET_SUNSET Do you know when sundown is [SL:DATE_TIME tonight ] ? ]"
+  },
+  {
+    "context": "where does the sun set",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNSET"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      4
+    ],
+    "qas_id": 139,
+    "org_label": "[IN:GET_SUNSET where does the sun set ]"
+  },
+  {
+    "context": "When will the sun rise today ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      5
+    ],
+    "end_position": [
+      6,
+      5
+    ],
+    "qas_id": 140,
+    "org_label": "[IN:GET_SUNRISE When will the sun rise [SL:DATE_TIME today ] ? ]"
+  },
+  {
+    "context": "what time is the earlies a sunrise occurs",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      7
+    ],
+    "qas_id": 141,
+    "org_label": "[IN:GET_SUNRISE what time is the earlies a sunrise occurs ]"
+  },
+  {
+    "context": "what time will the sun come out today",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      7
+    ],
+    "end_position": [
+      7,
+      7
+    ],
+    "qas_id": 142,
+    "org_label": "[IN:GET_SUNRISE what time will the sun come out [SL:DATE_TIME today ] ]"
+  },
+  {
+    "context": "When 's sunrise",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      2
+    ],
+    "qas_id": 143,
+    "org_label": "[IN:GET_SUNRISE When 's sunrise ]"
+  },
+  {
+    "context": "give me the time of sunrise for the next 3 days",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      8
+    ],
+    "end_position": [
+      10,
+      10
+    ],
+    "qas_id": 144,
+    "org_label": "[IN:GET_SUNRISE give me the time of sunrise for the [SL:DATE_TIME next 3 days ] ]"
+  },
+  {
+    "context": "What time does the sun rise in Boston , MA",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      7
+    ],
+    "end_position": [
+      9,
+      7
+    ],
+    "qas_id": 145,
+    "org_label": "[IN:GET_SUNRISE What time does the sun rise in [SL:LOCATION Boston ] , MA ]"
+  },
+  {
+    "context": "SHOW ME THE RADAR FOR MY AREA",
+    "entity_level": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_USER"
+    ],
+    "start_position": [
+      0,
+      5,
+      5,
+      5
+    ],
+    "end_position": [
+      6,
+      6,
+      6,
+      6
+    ],
+    "qas_id": 146,
+    "org_label": "[IN:GET_WEATHER SHOW ME THE RADAR FOR [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_USER MY AREA ] ] ] ]"
+  },
+  {
+    "context": "what time is sunrise",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      3
+    ],
+    "qas_id": 147,
+    "org_label": "[IN:GET_SUNRISE what time is sunrise ]"
+  },
+  {
+    "context": "What time is dusk in my town",
+    "entity_level": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_SUNSET",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_USER"
+    ],
+    "start_position": [
+      0,
+      5,
+      5,
+      5
+    ],
+    "end_position": [
+      6,
+      6,
+      6,
+      6
+    ],
+    "qas_id": 148,
+    "org_label": "[IN:GET_SUNSET What time is dusk in [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_USER my town ] ] ] ]"
+  },
+  {
+    "context": "I need the local radar",
+    "entity_level": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_MODIFIER"
+    ],
+    "start_position": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "end_position": [
+      4,
+      3,
+      3,
+      3
+    ],
+    "qas_id": 149,
+    "org_label": "[IN:GET_WEATHER I need the [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_MODIFIER local ] ] ] radar ]"
+  },
+  {
+    "context": "when is the sunrise tomorrow ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      4
+    ],
+    "end_position": [
+      5,
+      4
+    ],
+    "qas_id": 150,
+    "org_label": "[IN:GET_SUNRISE when is the sunrise [SL:DATE_TIME tomorrow ] ? ]"
+  },
+  {
+    "context": "tell me local radar for today",
+    "entity_level": [
+      1,
+      2,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "SL:DATE_TIME",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_MODIFIER"
+    ],
+    "start_position": [
+      0,
+      2,
+      4,
+      2,
+      2
+    ],
+    "end_position": [
+      5,
+      2,
+      5,
+      2,
+      2
+    ],
+    "qas_id": 151,
+    "org_label": "[IN:GET_WEATHER tell me [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_MODIFIER local ] ] ] radar [SL:DATE_TIME for today ] ]"
+  },
+  {
+    "context": "what time does the sun come up",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      6
+    ],
+    "qas_id": 152,
+    "org_label": "[IN:GET_SUNRISE what time does the sun come up ]"
+  },
+  {
+    "context": "What time will the sun rise in Tokyo tomorrow",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE",
+      "SL:LOCATION",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      7,
+      8
+    ],
+    "end_position": [
+      8,
+      7,
+      8
+    ],
+    "qas_id": 153,
+    "org_label": "[IN:GET_SUNRISE What time will the sun rise in [SL:LOCATION Tokyo ] [SL:DATE_TIME tomorrow ] ]"
+  },
+  {
+    "context": "What time is sunrise tomorrow",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      4
+    ],
+    "end_position": [
+      4,
+      4
+    ],
+    "qas_id": 154,
+    "org_label": "[IN:GET_SUNRISE What time is sunrise [SL:DATE_TIME tomorrow ] ]"
+  },
+  {
+    "context": "when is sunrise today ?",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      3
+    ],
+    "end_position": [
+      4,
+      3
+    ],
+    "qas_id": 155,
+    "org_label": "[IN:GET_SUNRISE when is sunrise [SL:DATE_TIME today ] ? ]"
+  },
+  {
+    "context": "how many millimetres of rain is expected ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:MEASUREMENT_UNIT",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      2,
+      4
+    ],
+    "end_position": [
+      7,
+      2,
+      4
+    ],
+    "qas_id": 156,
+    "org_label": "[IN:GET_WEATHER how many [SL:MEASUREMENT_UNIT millimetres ] of [SL:WEATHER_ATTRIBUTE rain ] is expected ? ]"
+  },
+  {
+    "context": "What time did the sunrise today",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      5
+    ],
+    "end_position": [
+      5,
+      5
+    ],
+    "qas_id": 157,
+    "org_label": "[IN:GET_SUNRISE What time did the sunrise [SL:DATE_TIME today ] ]"
+  },
+  {
+    "context": "What time is sunrise on Lake Eerie",
+    "entity_level": [
+      1,
+      2
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE",
+      "SL:LOCATION"
+    ],
+    "start_position": [
+      0,
+      5
+    ],
+    "end_position": [
+      6,
+      5
+    ],
+    "qas_id": 158,
+    "org_label": "[IN:GET_SUNRISE What time is sunrise on [SL:LOCATION Lake ] Eerie ]"
+  },
+  {
+    "context": "what time is sunrise",
+    "entity_level": [
+      1
+    ],
+    "label_type": [
+      "IN:GET_SUNRISE"
+    ],
+    "start_position": [
+      0
+    ],
+    "end_position": [
+      3
+    ],
+    "qas_id": 159,
+    "org_label": "[IN:GET_SUNRISE what time is sunrise ]"
+  },
+  {
+    "context": "What time does the sun set this time of year in my city",
+    "entity_level": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_SUNSET",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_USER"
+    ],
+    "start_position": [
+      0,
+      11,
+      11,
+      11
+    ],
+    "end_position": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "qas_id": 160,
+    "org_label": "[IN:GET_SUNSET What time does the sun set this time of year in [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_USER my city ] ] ] ]"
+  },
+  {
+    "context": "What is the forecast for this weekend at my mums ?",
+    "entity_level": [
+      1,
+      2,
+      2,
+      3,
+      4,
+      5,
+      6,
+      6
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME",
+      "SL:LOCATION",
+      "IN:GET_INFO_CONTACT",
+      "SL:CONTACT",
+      "IN:GET_CONTACT",
+      "SL:CONTACT_RELATED",
+      "SL:TYPE_RELATION"
+    ],
+    "start_position": [
+      0,
+      4,
+      8,
+      8,
+      8,
+      8,
+      8,
+      9
+    ],
+    "end_position": [
+      10,
+      6,
+      9,
+      9,
+      9,
+      9,
+      8,
+      9
+    ],
+    "qas_id": 161,
+    "org_label": "[IN:GET_WEATHER What is the forecast [SL:DATE_TIME for this weekend ] at [SL:LOCATION [IN:GET_INFO_CONTACT [SL:CONTACT [IN:GET_CONTACT [SL:CONTACT_RELATED my ] [SL:TYPE_RELATION mums ] ] ] ] ] ? ]"
+  },
+  {
+    "context": "Weather in current location",
+    "entity_level": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_USER"
+    ],
+    "start_position": [
+      0,
+      2,
+      2,
+      2
+    ],
+    "end_position": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "qas_id": 162,
+    "org_label": "[IN:GET_WEATHER Weather in [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_USER current location ] ] ] ]"
+  },
+  {
+    "context": "show me weather radar in my area",
+    "entity_level": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_USER"
+    ],
+    "start_position": [
+      0,
+      5,
+      5,
+      5
+    ],
+    "end_position": [
+      6,
+      6,
+      6,
+      6
+    ],
+    "qas_id": 163,
+    "org_label": "[IN:GET_WEATHER show me weather radar in [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_USER my area ] ] ] ]"
+  },
+  {
+    "context": "Weather here 10th June",
+    "entity_level": [
+      1,
+      2,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "SL:DATE_TIME",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_USER"
+    ],
+    "start_position": [
+      0,
+      1,
+      2,
+      1,
+      1
+    ],
+    "end_position": [
+      3,
+      1,
+      3,
+      1,
+      1
+    ],
+    "qas_id": 164,
+    "org_label": "[IN:GET_WEATHER Weather [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_USER here ] ] ] [SL:DATE_TIME 10th June ] ]"
+  },
+  {
+    "context": "gimmie that local radar readout",
+    "entity_level": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_MODIFIER"
+    ],
+    "start_position": [
+      0,
+      2,
+      2,
+      2
+    ],
+    "end_position": [
+      4,
+      2,
+      2,
+      2
+    ],
+    "qas_id": 165,
+    "org_label": "[IN:GET_WEATHER gimmie that [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_MODIFIER local ] ] ] radar readout ]"
+  },
+  {
+    "context": "Can you guess the climate for next week here ?",
+    "entity_level": [
+      1,
+      2,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:DATE_TIME",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_USER"
+    ],
+    "start_position": [
+      0,
+      5,
+      8,
+      8,
+      8
+    ],
+    "end_position": [
+      9,
+      7,
+      8,
+      8,
+      8
+    ],
+    "qas_id": 166,
+    "org_label": "[IN:GET_WEATHER Can you guess the climate [SL:DATE_TIME for next week ] [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_USER here ] ] ] ? ]"
+  },
+  {
+    "context": "How many cm of snow are we expecting ?",
+    "entity_level": [
+      1,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:MEASUREMENT_UNIT",
+      "SL:WEATHER_ATTRIBUTE"
+    ],
+    "start_position": [
+      0,
+      2,
+      4
+    ],
+    "end_position": [
+      8,
+      2,
+      4
+    ],
+    "qas_id": 167,
+    "org_label": "[IN:GET_WEATHER How many [SL:MEASUREMENT_UNIT cm ] of [SL:WEATHER_ATTRIBUTE snow ] are we expecting ? ]"
+  },
+  {
+    "context": "in centimeters , how much rain will we be getting tonight",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:MEASUREMENT_UNIT",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      1,
+      5,
+      10
+    ],
+    "end_position": [
+      10,
+      1,
+      5,
+      10
+    ],
+    "qas_id": 168,
+    "org_label": "[IN:GET_WEATHER in [SL:MEASUREMENT_UNIT centimeters ] , how much [SL:WEATHER_ATTRIBUTE rain ] will we be getting [SL:DATE_TIME tonight ] ]"
+  },
+  {
+    "context": "radar for my region",
+    "entity_level": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_USER"
+    ],
+    "start_position": [
+      0,
+      2,
+      2,
+      2
+    ],
+    "end_position": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "qas_id": 169,
+    "org_label": "[IN:GET_WEATHER radar for [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_USER my region ] ] ] ]"
+  },
+  {
+    "context": "Pull up the radar for my current area",
+    "entity_level": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_USER"
+    ],
+    "start_position": [
+      0,
+      5,
+      5,
+      5
+    ],
+    "end_position": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "qas_id": 170,
+    "org_label": "[IN:GET_WEATHER Pull up the radar for [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_USER my current area ] ] ] ]"
+  },
+  {
+    "context": "tell me local radar",
+    "entity_level": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_MODIFIER"
+    ],
+    "start_position": [
+      0,
+      2,
+      2,
+      2
+    ],
+    "end_position": [
+      3,
+      2,
+      2,
+      2
+    ],
+    "qas_id": 171,
+    "org_label": "[IN:GET_WEATHER tell me [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_MODIFIER local ] ] ] radar ]"
+  },
+  {
+    "context": "advise me on how many cm of rain is due tomorrow",
+    "entity_level": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:MEASUREMENT_UNIT",
+      "SL:WEATHER_ATTRIBUTE",
+      "SL:DATE_TIME"
+    ],
+    "start_position": [
+      0,
+      5,
+      7,
+      10
+    ],
+    "end_position": [
+      10,
+      5,
+      7,
+      10
+    ],
+    "qas_id": 172,
+    "org_label": "[IN:GET_WEATHER advise me on how many [SL:MEASUREMENT_UNIT cm ] of [SL:WEATHER_ATTRIBUTE rain ] is due [SL:DATE_TIME tomorrow ] ]"
+  },
+  {
+    "context": "what 's the local radar",
+    "entity_level": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_MODIFIER"
+    ],
+    "start_position": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "end_position": [
+      4,
+      3,
+      3,
+      3
+    ],
+    "qas_id": 173,
+    "org_label": "[IN:GET_WEATHER what 's the [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_MODIFIER local ] ] ] radar ]"
+  },
+  {
+    "context": "what 's the radar look like in my area",
+    "entity_level": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_USER"
+    ],
+    "start_position": [
+      0,
+      7,
+      7,
+      7
+    ],
+    "end_position": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "qas_id": 174,
+    "org_label": "[IN:GET_WEATHER what 's the radar look like in [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_USER my area ] ] ] ]"
+  },
+  {
+    "context": "tell me the local radar for tomorrow",
+    "entity_level": [
+      1,
+      2,
+      2,
+      3,
+      4
+    ],
+    "label_type": [
+      "IN:GET_WEATHER",
+      "SL:LOCATION",
+      "SL:DATE_TIME",
+      "IN:GET_LOCATION",
+      "SL:LOCATION_MODIFIER"
+    ],
+    "start_position": [
+      0,
+      3,
+      5,
+      3,
+      3
+    ],
+    "end_position": [
+      6,
+      3,
+      6,
+      3,
+      3
+    ],
+    "qas_id": 175,
+    "org_label": "[IN:GET_WEATHER tell me the [SL:LOCATION [IN:GET_LOCATION [SL:LOCATION_MODIFIER local ] ] ] radar [SL:DATE_TIME for tomorrow ] ]"
+  }
+]
