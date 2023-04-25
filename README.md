@@ -1,4 +1,4 @@
-# GRAM: Grammar-Based Refined-Label Representing Mechanism in the Hierarchical Semantic Parsing Task
+# GRAM: Grammar-Based Refined-Label Representing Mechanism
 
 ## Create a conda environment and install the required packages
 
